@@ -1,15 +1,17 @@
 /* body */
-body{
+body {
   background-color: #219F94;
 }
+
 /* navbar */
-header ul{
+header ul {
   display: flex;
   justify-content: center;
   list-style-type: none;
   margin-top: 2rem;
 }
-header ul li a{
+
+header ul li a {
   text-decoration: none;
   color: #219F94;
   margin: 1rem;
@@ -17,29 +19,42 @@ header ul li a{
   padding: 1rem;
   border-radius: 2%;
 }
-header ul li a:hover{
+
+header ul li a:hover {
   background-color: #219F94;
   color: #C1DEAE;
 }
+
 /* ccl */
-.ccl1{
+.ccl1 {
   background-color: #C1DEAE;
-  width: 170vh;height: 170vh;
+  width: 170vh;
+  height: 170vh;
   border-radius: 100%;
-  position: absolute;top: -64rem;left: 11.6rem;
+  position: absolute;
+  top: -64rem;
+  left: 11.6rem;
   z-index: -1;
 }
-.ccl2{
+
+.ccl2 {
   background-color: #219F94;
-  width: 175vh;height: 175vh;
+  width: 175vh;
+  height: 175vh;
   border-radius: 100%;
-  position: absolute;top: -64rem;left: 10rem;
+  position: absolute;
+  top: -64rem;
+  left: 10rem;
   z-index: -2;
 }
-.ccl3{
+
+.ccl3 {
   background-color: #C1DEAE;
-  width: 177vh;height: 177vh;
+  width: 177vh;
+  height: 177vh;
   border-radius: 100%;
-  position: absolute;top: -64rem;left: 9.5rem;
+  position: absolute;
+  top: -64rem;
+  left: 9.5rem;
   z-index: -3;
 }
